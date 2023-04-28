@@ -1,0 +1,45 @@
+{{ define "main" }}
+<div class="min-h-80 contact-form">
+    <div class="container">
+        <hgroup>
+            {{ partial "breadcrumbs.html" . }}
+            <h1>{{ .Title }}</h1>
+            <h2>{{ .Description }}</h2>
+        </hgroup>
+        <p>
+            Contactez-nous par email à <a href="mailto:info@tir-volson.ch">info@tir-volson.ch</a> 
+            {{- if .Site.Params.contactFormAction }}ou à l'aide du formulaire ci-dessous. {{ end }}
+        </p>
+        {{- if .Site.Params.contactFormAction }}
+        <form name="contact" method="POST" action="{{ .Site.Params.contactFormAction | relURL }}" >
+            <input name="_redirect" type="hidden" id="name" value="{{"/thanks/" | absURL}}">
+            <input name="_formsubmit_id" type="text" hidden>
+            <div class="grid">
+        
+            <label for="firstname">
+                Prénom
+                <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
+            </label>
+        
+            <label for="lastname">
+                Nom
+                <input type="text" id="lastname" name="lastname" placeholder="Nom">
+            </label>
+        
+            </div>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Adresse email" required>
+            <small>Nous n'utilisons votre email que pour vous répondre et ne le partageons avec personne.</small>
+
+            <label for="email">Votre message</label>
+            <textarea name="message" id="message" cols="30" rows="5" style="resize: none;" required></textarea>
+            <small>Dites-nous tout.</small>
+        
+            <input type="submit" value="Envoyer">
+        
+        </form>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
