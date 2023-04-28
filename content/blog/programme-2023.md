@@ -11,4 +11,4 @@ ShowBreadCrumbs: false
 
 Notre programme pour 2023 est téléchargeable au format PDF:
 
-[![img](/uploads/programme-2023.png)](/uploads/documents/programme-tir-volson-2023.pdf)
+[![img](uploads/programme-2023.png)](uploads/documents/programme-tir-volson-2023.pdf)

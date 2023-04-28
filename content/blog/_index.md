@@ -1,5 +1,5 @@
 ---
 title: Actualités
-image: "/uploads/title.jpg"
+image: "uploads/title.jpg"
 description: Nos dernières actualités
 ---
