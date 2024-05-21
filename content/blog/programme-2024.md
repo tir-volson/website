@@ -11,4 +11,4 @@ ShowBreadCrumbs: false
 
 Notre programme pour 2024 est téléchargeable au format PDF:
 
-[![img](uploads/programme-2024.png)](uploads/documents/programme-tir-volson-2024.pdf)
+[![img](uploads/programme-2024.png)](uploads/documents/Planning_Tir_Volson_2024.pdf)
