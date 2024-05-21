@@ -58,7 +58,7 @@ url('{{ .Param "TitleImage" }}');">
         <a href="{{ .RelPermalink }}">
           <hgroup>
             <h4><i>{{ .Title }}</i></h4>
-            <p>{{- partial "post_meta.html" . -}}</p>
+            <p>{{- partial "post_meta.html" . | safeHTML -}}</p>
           </hgroup>
         </a>
 
