@@ -5,7 +5,7 @@ disableShare: true
 ShowReadingTime: false
 showToc: false
 cover: 
-  image: "uploads/logo.jpg"
+  image: "/uploads/logo.jpg"
 tags: ["infos", "sections"]
 categories: ["infos" ]
 ---
@@ -24,4 +24,4 @@ Le tir à 300 mètres s’effectue au stand de Vernand à Romanel-sur-Lausanne.
 
 Un projet de réaménagement de l’étage supérieur du stand de Volson est en cours afin de permettre d’effectuer du tir à l’air comprimé sur une distance de 10m.
 
-![Panneau d’information installé près du stand](uploads/panneau.jpg)
+![Panneau d’information installé près du stand](/uploads/panneau.jpg)

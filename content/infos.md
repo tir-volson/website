@@ -5,12 +5,12 @@ disableShare: true
 ShowReadingTime: false
 showToc: false
 cover:
-  image: uploads/map.png
+  image: /uploads/map.png
 tags: ["infos", "comité"]
 categories: ["infos" ]
 ---
 
-Statuts de la société (version 2021):  [[Volson_statuts_2021.pdf]](uploads/documents/Volson_statuts_2021.pdf)
+Statuts de la société (version 2021):  [[Volson_statuts_2021.pdf]](/uploads/documents/Volson_statuts_2021.pdf)
 
 Adresse email de contact : info@tir-volson.ch
 
@@ -25,7 +25,9 @@ Secrétaire : Sophie Rey
 
 Caissier : Jacen Duperrex
 
-Membre : Marc Lavanchy 
+Responsable Infrastructures : Marc Lavanchy
+
+Responsable moniteurs : Frank Radoux
 
 # Informations générales
 
@@ -36,7 +38,7 @@ Les frais de licence se montent à CHF 40.- par année.
 
 Les membres peuvent acheter sur place de la munition standard (9 mm et 7.65 mm) pour tirer au stand.
 
-![](uploads/munition.jpg)
+![](/uploads/munition.jpg)
 
 # Situation
 
@@ -45,7 +47,7 @@ Le Stand de Volson est situé au chemin du Stand 11 – 1009 Pully
 Google Map : https://goo.gl/maps/cqTyk4uoWfRaHtjc7
 
 Lorsque le stand est ouvert, le chemin forestier qui contourne le stand est fermé par mesure de sécurité. Pour les promeneurs, un parcours alternatif, contournant le bâtiment, passe par le nord du stand.
-![](uploads/halte.jpg)
+![](/uploads/halte.jpg)
 
 Le stand est également utilisé par la société de tir de Belmont qui a à disposition certains jours de tir. 
 Voir leur programme sur leur site: http://www.belmont-tir.ch/
