@@ -1,5 +1,5 @@
 ---
-baseURL: https://tir-volson.ch
+baseURL: https://tir-pully.ch
 languageCode: fr-fr
 title: Société de Tir du Volson
 theme: piko
@@ -74,7 +74,7 @@ params:
   homepage:
     # Hero Section
     disableHeroSection: false
-    heroUpperTitle: 
+    heroUpperTitle:
     heroTitle: Société de Tir du Volson
     heroDescription: Votre société de tir de l'est lausannois
     heroCTAPrimaryText: News
@@ -87,7 +87,7 @@ params:
     blogTitle: Actualités
     blogDescription: Nos dernières actualités
     seeMoreText: Plus d'articles
-    # About Section    
+    # About Section
     disableAboutSection: false
     aboutTitle: Info
     aboutDescription: en bref
